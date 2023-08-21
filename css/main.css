@@ -1,6 +1,11 @@
 body, html {
-	background-color: #F8F9F9;
+/*	background-color: #F8F9F9; */
+	background-color: grey;
 	height: 100%;
+}
+
+.card {
+	background-color: grey !important;
 }
 
 h3, h4 {
