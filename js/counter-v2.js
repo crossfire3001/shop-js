@@ -33,6 +33,9 @@ window.addEventListener('click', (event) => {
 
             // Удаляем товар из корзины
             event.target.closest('.cart-item').remove();
+
+            // Отображение статуса корзины Пустая / Полная
+            toggleCartStatus();
         }
     }
 });
